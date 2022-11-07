@@ -18,12 +18,15 @@ Tiro Typeworks, Principal design
 Tiro Typeworks is a small type foundry specialising in custom fonts for multilingual publishing and computing. Tiro’s clients include Adobe, Apple, Brill, Google, Harvard University Press, Microsoft, the STI Pub consortium, and other specialist publishers and scholarly organisations.
 
 John Hudson
+
 John Hudson is a Canadian type designer and font maker, and co-founder of Tiro Typeworks (1994).
 
 Fiona Ross
+
 Fiona Ross specializes in type design primarily for Arabic, South Asian, and Thai scripts. She works as a consultant, type designer, author, and Professor in Type Design (part-time) at the University of Reading (UK). Fiona has received the SoTA Typography Award (2014) and the Type Director’s Club Medal (2018). [Academic Profile](http://www.reading.ac.uk/typography/about/Staff_list/f-g-e-ross.aspx)
 
 Paul Hanslow
+
 Paul Hanslow is an Australian born typeface designer, currently working for Tiro Typeworks in Vancouver, Canada.
 
 ## How To Use This Font In Your FPM Package:
