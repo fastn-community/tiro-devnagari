@@ -10,28 +10,28 @@ Designers: Tiro Typeworks, Principal design, John Hudson, Fiona Ross and Paul Ha
 
 ## How To Use This Font In Your FPM Package:
 
-[Read the docs and demo](https://fifthtry.github.io/arya-font).
+[Read the docs and demo](https://fifthtry.github.io/tiro-devnagari-marathi-font).
 
 TLRD:
 
 Include fifthtry.github.io/tiro-devnagari-marathi-font package into `FPM.ftd` file:
 
 ```ftd
--- fpm.dependency: fifthtry.github.io/tiro-devnagari-marathi-font
+;-- fpm.dependency: fifthtry.github.io/tiro-devnagari-marathi-font
 ```
 
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
--- import: fifthtry.github.io/tiro-devnagari-marathi-font as tiro
+;-- import: fifthtry.github.io/tiro-devnagari-marathi-font/assets as tiro
 
--- fpm.type.headline-small.font: $tiro.fonts.Tiro
+;-- fpm.type.headline-small.font: $tiro.fonts.Tiro-Devanagari-Marathi
 ```
 
 Now if in any file you do:
 
 ```ftd
--- ftd.text:
+;-- ftd.text:
 role: $fpm.type.headline-small
 ```
 
@@ -44,7 +44,7 @@ server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-Since Arya Font is under [Open Font Licence](https://fonts.google.com/specimen/Tiro+Devanagari+Marathi/about?subset=devanagari), this FPM wrapper is also
+Since Tiro Devanagari Marathi Font is under [Open Font Licence](https://fonts.google.com/specimen/Tiro+Devanagari+Marathi/about?subset=devanagari), this FPM wrapper is also
 under [Open Font License](LICENSE).
 
 
