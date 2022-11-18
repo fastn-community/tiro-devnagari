@@ -3,6 +3,7 @@
 -- fpm.package: fifthtry.github.io/tiro-devnagari-marathi-font
 download-base-url: https://raw.githubusercontent.com/fifthtry/tiro-devnagari-marathi-font/main
 
+-- fpm.dependency: fifthtry.github.io/package-doc
 
 -- fpm.font: Tiro-Devanagari-Marathi
 style: italic
