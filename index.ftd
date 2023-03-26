@@ -1,122 +1,103 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
--- import: fifthtry.github.io/package-doc/typography as tf
--- import: fifthtry.github.io/tiro-devnagari-marathi-font/assets as tdm-assets
--- import: fpm
-
-
--- boolean is-mobile: false
-
--- is-mobile: true
-if: $ftd.device == mobile
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fastn-community.github.io/tiro-font/custom
+-- import: fifthtry.github.io/package-doc/footer
 
 
 
--- ftd.font-size tiro-devnagari-marathi-demo:
-line-height: 36
-size: 22
-letter-spacing: 0
 
--- ftd.font-size tiro-devnagari-marathi-demo-heading:
-line-height: 56
-size: 48
-letter-spacing: 0
+-- ds.page: 
+show-footer: true
+site-name: `tiro-font`
 
--- ftd.type tiro-devnagari-marathi-font: $tdm-assets.fonts.tiro-devnagari-marathi
-desktop: $tiro-devnagari-marathi-demo
-mobile: $tiro-devnagari-marathi-demo
-xl: $tiro-devnagari-marathi-demo
-weight: 400
+-- ds.page.footer:
 
--- ftd.type tiro-devnagari-marathi-font-heading: $tdm-assets.fonts.tiro-devnagari-marathi
-desktop: $tiro-devnagari-marathi-demo-heading
-mobile: $tiro-devnagari-marathi-demo-heading
-xl: $tiro-devnagari-marathi-demo-heading
-weight: 400
+-- footer.fastn-footer:
 
--- ftd.column:
-width: fill
-padding-horizontal: 50
-padding-horizontal if $is-mobile: 20
-background-color: $fpm.color.main.background.base
-id: parent
+-- end: ds.page.footer
 
+-- pd.package: FTD tiro-font package
+name: fastn-community.github.io/tiro-font
 
--- pd.package: tiro-devnagari-marathi - fpm font
-name: fifthtry.github.io/tiro-devnagari-marathi-font
+This FTD font `tiro-font` can be used for your ftd web projects. 
 
-This component consist of Google tiro-devnagari-marathi font with all it's styles
- from Thin-100 to Black-900 Italic.
+To Use this tiro-font inside `FTD` project visit [tiro-typography](https://fastn-community.github.io/tiro-typography).
+
+-- ds.h3: tiro-font various sizes
+
+-- ftd.text: 
+role: $custom.tiro-font-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
 
 
--- pd.component: tiro-devnagari-marathi - fpm font
-name: https://github.com/FifthTry/tiro-devnagari-marathi-font
+-- ftd.text: 
+role: $custom.tiro-font-size-12-800
+color: $inherited.colors.text-strong
 
-This component consist of Google tiro-devnagari-marathi font with all it's styles
-from Thin-100 to Black-900 Italic.
+`font-size: 12px, font-weight: 500` 
 
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
 
+-- ftd.text: 
+role: $custom.tiro-font-size-12-800
+color: $inherited.colors.text-strong
 
--- pd.hidden-code: How to use
+`font-size: 12px, font-weight: 800` 
 
-include fifthtry.github.io/tiro-devnagari-marathi package into FPM.ftd file
-
-\-- fpm.dependency: fifthtry.github.io/tiro-devnagari-marathi-font/assets as tiro-devnagari-marathi
-
-\-- fpm.auto-import: tiro-devnagari-marathi
-
-Inside your .ftd file to change for any specific token use:
-
-\-- fpm.type.headline-small.font: $tiro-devnagari-marathi.fonts.tiro-devnagari-marathi
-
-\-- ftd.text:
-role: $fpm.type.headline-small
-
--- container: parent
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
 
 
--- tf.h2: `tiro-devnagari-marathi-font` regular 18px:
+-- ftd.text: 
+role: $custom.tiro-font-size-18-400
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
-role: $tiro-devnagari-marathi-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular
+`font-size: 18px, font-weight: 400` 
 
--- tf.h2: `tiro-devnagari-marathi-font` regular strike through 18px:
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $tiro-devnagari-marathi-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular strike
+-- ftd.text: 
+role: $custom.tiro-font-size-18-500
+color: $inherited.colors.text-strong
 
--- tf.h2: `tiro-devnagari-marathi-font` regular underline 18px:
+`font-size: 18px, font-weight: 500` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $tiro-devnagari-marathi-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular underline
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
 
--- tf.h2: `tiro-devnagari-marathi-font` regular italic 18px:
+-- ftd.text: 
+role: $custom.tiro-font-size-18-800
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $tiro-devnagari-marathi-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular italic
--- tf.h2: `tiro-devnagari-marathi-font` bold 18px:
+`font-size: 18px, font-weight: 800` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $tiro-devnagari-marathi-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: bold
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
 
--- tf.h2: `tiro-devnagari-marathi-font` heading regular 48px:
+-- ftd.text: 
+role: $custom.tiro-font-size-48-400
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $tiro-devnagari-marathi-font-heading
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-10
-style: regular
+`font-size: 48px, font-weight: 400` 
+
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
+
+-- ftd.text: 
+role: $custom.tiro-font-size-48-500
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 500` 
+
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
+
+-- ftd.text:
+role: $custom.tiro-font-size-48-800
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 800` 
+
+👉 किसी व्यक्ति की एकान्तता, परिवार, घर या पत्रव्यवहार के प्रति कोई मनमाना हस्तक्षेप न किया जाएगा
+
+-- end: ds.page
+

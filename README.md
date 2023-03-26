@@ -10,32 +10,8 @@ Designers: Tiro Typeworks, Principal design, John Hudson, Fiona Ross and Paul Ha
 
 ## How To Use This Font In Your FPM Package:
 
-[Read the docs and demo](https://fifthtry.github.io/tiro-devnagari-marathi-font).
+[Read the docs and demo](https://fastn-community.github.io/tiro-font).
 
-TLRD:
-
-Include fifthtry.github.io/tiro-devnagari-marathi-font package into `FPM.ftd` file:
-
-```ftd
-;-- fpm.dependency: fifthtry.github.io/tiro-devnagari-marathi-font
-```
-
-Inside your `FPM/config.ftd` use the font:
-
-```ftd
-;-- import: fifthtry.github.io/tiro-devnagari-marathi-font/assets as tiro
-
-;-- fpm.type.headline-small.font: $tiro.fonts.Tiro-Devanagari-Marathi
-```
-
-Now if in any file you do:
-
-```ftd
-;-- ftd.text:
-role: $fpm.type.headline-small
-```
-
-You will see the `tiro-devnagari-marathi-font` font.
 
 ## 👀 Want to learn more?
 
