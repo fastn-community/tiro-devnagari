@@ -1,0 +1,56 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "9F8BDADFDF127CAF91FBE0E0F8D54FE6349DA5ED4DBFCE6725B4DC6D590D0C51",
+      "size": 1974
+    },
+    "LICENSE": {
+      "name": "LICENSE",
+      "checksum": "E5420B70BA0FD03653F76181137C877AC77B926F7A26EE3473B2039F1E3F3FAC",
+      "size": 4010
+    },
+    "custom.ftd": {
+      "name": "custom.ftd",
+      "checksum": "460ACCD89A927BBD42AFE59492484573B79A9C46FEFDC0DEE5AFCCC6ADF7BD23",
+      "size": 6091
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "2D6C5E7CDAFCAB990AB740A453424645F713D8B6F99E623EF7CD86EC49075174",
+      "size": 4093
+    },
+    "static/Tiro-Devanagari-Marathi-400-italic-devanagari.woff2": {
+      "name": "static/Tiro-Devanagari-Marathi-400-italic-devanagari.woff2",
+      "checksum": "DCB240B702BA8C0B0BBF6C7700F0B22E4A747A9AB13B76C5079837EEEF84469C",
+      "size": 101692
+    },
+    "static/Tiro-Devanagari-Marathi-400-italic-latin-ext.woff2": {
+      "name": "static/Tiro-Devanagari-Marathi-400-italic-latin-ext.woff2",
+      "checksum": "B10C00BEDD4D41598F694524397363EE27B2326C0DD1DDE73CE2A3976D6B97DF",
+      "size": 12160
+    },
+    "static/Tiro-Devanagari-Marathi-400-italic-latin.woff2": {
+      "name": "static/Tiro-Devanagari-Marathi-400-italic-latin.woff2",
+      "checksum": "0179C948CA73B3DCF7630A3ABD2B1695ABD1592FDB6421EC7C16090C593A9845",
+      "size": 25184
+    },
+    "static/Tiro-Devanagari-Marathi-400-normal-devanagari.woff2": {
+      "name": "static/Tiro-Devanagari-Marathi-400-normal-devanagari.woff2",
+      "checksum": "60288BDB48D731BAEB3138A9811AD65F9680A7091B39DC4E4B5B56E1BBAE8DA0",
+      "size": 97960
+    },
+    "static/Tiro-Devanagari-Marathi-400-normal-latin-ext.woff2": {
+      "name": "static/Tiro-Devanagari-Marathi-400-normal-latin-ext.woff2",
+      "checksum": "DECA81A1E5CD44D9DD740E1B0E02C0DB02E63EA412950210FF6F088884EC227A",
+      "size": 12068
+    },
+    "static/Tiro-Devanagari-Marathi-400-normal-latin.woff2": {
+      "name": "static/Tiro-Devanagari-Marathi-400-normal-latin.woff2",
+      "checksum": "8F0F7F4068C80478031ED64389088C56643BC35B707C26FC56848954F1CF1C1F",
+      "size": 24540
+    }
+  },
+  "zip_url": "https://codeload.github.com/fastn-community/tiro-font/zip/refs/heads/main",
+  "checksum": "DEA8B695B5D7D79AE3295349B964FE6C2DEFD79E9B7E6EE3BF5EA06163479175"
+}
